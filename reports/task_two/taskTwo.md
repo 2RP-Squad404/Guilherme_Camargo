@@ -84,7 +84,7 @@ Antes de realizar o retorno de uma tabela completa comecei realizando consultas 
 
 ## client_id
 
-Como em ambos os datasets haviam haviam client_id resolvi retornar ambos os valores somente para indicar a relação entre os datasets.
+Como em ambos os datasets haviam client_id resolvi retornar ambos os valores somente para indicar a relação entre os datasets.
 
 ```sql
 %hive
@@ -194,7 +194,7 @@ SELECT CURRENT_DATE AS date_today
 
 ## anomes_today
 
-Para retornar atual no formato MMYYYY (int) utilizei a função CAST() para realizar a conversão de CURRENT_DATE para int e mdoficar o formato.
+Para retornar atual no formato MMYYYY (int) utilizei a função CAST() para realizar a conversão de CURRENT_DATE para int e modificar o formato.
 
 ```sql
 %hive
